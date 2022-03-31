@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<!--suppress HtmlUnknownTarget -->
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+      <!-- Load Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+      <!-- Load styles.css file -->
+      <link rel="stylesheet" href="/css/styles.css">
+      <link rel="stylesheet" href="/css/sliderStyles.css">
+
+      <title>Estate</title>
+   </head>
+
+   <body>
+      <div class="wrapper">
+         <header class="header">
+            <div class="header-container base-container row top-nav" id="myTopNav">
+               <div class="logo-container">
+                  <img src="/images/logo-horizontal.png" alt="logo.png" class="logo">
+               </div>
+
+               <a class="icon" href="javascript:void(0);" onclick="handleBurgerMenuFn()">
+                  <i class="fa fa-bars" id="open-hamburger-menu-icon"></i>
+                  <i class="fas fa-times" id="close-hamburger-menu-icon"></i>
+               </a>
+
+               <div class="mnu-list row">
+                  <div class="mnu-item">
+                     <a href="">Listings</a>
+                  </div>
+
+                  <div class="mnu-item">
+                     <a href="">Newsroom</a>
+                  </div>
+
+                  <div class="mnu-item">
+                     <a href="">Contact</a>
+                  </div>
+
+                  <div class="mnu-item">
+                     <a href="">Our team</a>
+                  </div>
+               </div>
+            </div>
+         </header>
+
+         <main>
+            <section class="entire-section column">
+               <div class="bg-image">
+                  <img src="/images/entire-background.png">
+               </div>
+
+               <div class="entire-container base-container column">
+                  <div class="vertical-logo-container">
+                     <img src="/images/logo-vertical.png" alt="logo-vertical.png" class="vertical-logo">
+                  </div>
+                  <div class="entire-h1">
+                     We're here to help you find a new home.
+                  </div>
+               </div>
+            </section>
+            <section class="goals">
+               <div class="goals-container base-container row">
+
+                  <div class="goals-left-container column">
+                     <div class="section-name">
+                        Our goal
+                     </div>
+                     <div class="goals-h1">
+                        We are dedicated to finding a house that you'll love.
+                     </div>
+                  </div>
+
+                  <div class="goals-right-container column">
+                     <div class="goals-paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo
+                        diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut
+                        sem vitae risus tristique posuere.
+                     </div>
+                     <div class="goals-paragraph">
+                        Interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id
+                        rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                     </div>
+                     <div class="human-card row">
+                        <div class="human-card-img">
+                           <img src="/images/human-1.png" alt="human-1.png">
+                        </div>
+                        <div class="human-card-info">
+                           <div class="human-card-name">
+                              Ava Orn
+                           </div>
+                           <div class="human-card-role">
+                              Managing Broker
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="requirements">
+               <div class="requirements-container base-container column">
+                  <div class="section-name row">
+                     Our requirements
+                  </div>
+                  <div class="section-title row">
+                     How we choose our listings.
+                  </div>
+                  <div class="section-subtitle row">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
+                     faucibus.
+                  </div>
+                  <div class="requirements-content row">
+                     <div class="requirements-left-container column">
+                        <div class="requirements-img">
+                           <img src="/images/requirements-img.png" alt="requirements-img.png">
+                        </div>
+                     </div>
+
+                     <div class="requirements-right-container column">
+                        <div class="requirements-card">
+                           <div class="requirements-card-icon">
+                              <img src="/images/location-icon.svg" alt="location-icon.svg">
+                           </div>
+                           <div class="requirements-card-title">
+                              Stellar locations
+                           </div>
+                           <div class="requirements-card-subtitle">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           </div>
+                        </div>
+
+                        <div class="requirements-card">
+                           <div class="requirements-card-icon">
+                              <img src="/images/building-icon.svg" alt="building-icon.svg">
+                           </div>
+                           <div class="requirements-card-title">
+                              High quality builds
+                           </div>
+                           <div class="requirements-card-subtitle">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           </div>
+                        </div>
+
+                        <div class="requirements-card">
+                           <div class="requirements-card-icon">
+                              <img src="/images/seat-icon.svg" alt="seat-icon.svg">
+                           </div>
+                           <div class="requirements-card-title">
+                              Expert interior design
+                           </div>
+                           <div class="requirements-card-subtitle">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="empty-section">
+               <div class="bg-image">
+                  <img src="/images/house.png">
+               </div>
+            </section>
+            <section class="listings">
+               <div class="listings-container base-container column">
+                  <div class="listings-text-container">
+                     <div class="section-name">
+                        Current listings
+                     </div>
+                     <div class="section-title">
+                        What we have in store for you.
+                     </div>
+                     <div class="section-subtitle">
+                        Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna
+                        turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+                     </div>
+                  </div>
+
+                  <div class="listings-cards-container row">
+                     <div class="listing-card column">
+                        <div class="listing-card-img">
+                           <img src="/images/listing-card-img-1.png" alt="listing-card-img-1.png">
+                        </div>
+                        <div class="estate-type">
+                           HOUSE
+                        </div>
+                        <div class="estate-address">
+                           California St.
+                        </div>
+                        <div class="estate-data row">
+                           <div class="beds-data row ">
+                              <div class="bed-icon listing-card-icon">
+                                 <img src="/images/bed-icon.svg" alt="bed-icon.svg">
+                              </div>
+                              <div class="estate-data-text">16 beds</div>
+                           </div>
+                           <div class="bathrooms-data row">
+                              <div class="bath-icon listing-card-icon">
+                                 <img src="/images/bath-icon.svg" alt="bath-icon.svg">
+                              </div>
+                              <div class="estate-data-text">2 bathrooms</div>
+                           </div>
+                           <div class="rooms-data row">
+                              <div class="door-icon listing-card-icon">
+                                 <img src="/images/door-icon.svg" alt="door-icon.svg">
+                              </div>
+                              <div class="estate-data-text">11 rooms</div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="listing-card column">
+                        <div class="listing-card-img">
+                           <img src="/images/listing-card-img-2.png" alt="listing-card-img-2.png">
+                        </div>
+                        <div class="estate-type">
+                           VILLA
+                        </div>
+                        <div class="estate-address">
+                           Welford Gardens
+                        </div>
+                        <div class="estate-data row">
+                           <div class="beds-data row ">
+                              <div class="bed-icon listing-card-icon">
+                                 <img src="/images/bed-icon.svg" alt="bed-icon.svg">
+                              </div>
+                              <div class="estate-data-text">12 beds</div>
+                           </div>
+                           <div class="bathrooms-data row">
+                              <div class="bath-icon listing-card-icon">
+                                 <img src="/images/bath-icon.svg" alt="bath-icon.svg">
+                              </div>
+                              <div class="estate-data-text">3 bathrooms</div>
+                           </div>
+                           <div class="rooms-data row">
+                              <div class="door-icon listing-card-icon">
+                                 <img src="/images/door-icon.svg" alt="door-icon.svg">
+                              </div>
+                              <div class="estate-data-text">16 rooms</div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="listing-card column">
+                        <div class="listing-card-img">
+                           <img src="/images/listing-card-img-3.png" alt="listing-card-img-3.png">
+                        </div>
+                        <div class="estate-type">
+                           HOUSE
+                        </div>
+                        <div class="estate-address">
+                           The Grove
+                        </div>
+                        <div class="estate-data row">
+                           <div class="beds-data row ">
+                              <div class="bed-icon listing-card-icon">
+                                 <img src="/images/bed-icon.svg" alt="bed-icon.svg">
+                              </div>
+                              <div class="estate-data-text">12 beds</div>
+                           </div>
+                           <div class="bathrooms-data row">
+                              <div class="bath-icon listing-card-icon">
+                                 <img src="/images/bath-icon.svg" alt="bath-icon.svg">
+                              </div>
+                              <div class="estate-data-text">2 bathrooms</div>
+                           </div>
+                           <div class="rooms-data row">
+                              <div class="door-icon listing-card-icon">
+                                 <img src="/images/door-icon.svg" alt="door-icon.svg">
+                              </div>
+                              <div class="estate-data-text">14 rooms</div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="listing-card column">
+                        <div class="listing-card-img">
+                           <img src="/images/listing-card-img-4.png" alt="listing-card-img-4.png">
+                        </div>
+                        <div class="estate-type">
+                           APARTMENT
+                        </div>
+                        <div class="estate-address">
+                           Wallace St.
+                        </div>
+                        <div class="estate-data row">
+                           <div class="beds-data row ">
+                              <div class="bed-icon listing-card-icon">
+                                 <img src="/images/bed-icon.svg" alt="bed-icon.svg">
+                              </div>
+                              <div class="estate-data-text">10 beds</div>
+                           </div>
+                           <div class="bathrooms-data row">
+                              <div class="bath-icon listing-card-icon">
+                                 <img src="/images/bath-icon.svg" alt="bath-icon.svg">
+                              </div>
+                              <div class="estate-data-text">2 bathrooms</div>
+                           </div>
+                           <div class="rooms-data row">
+                              <div class="door-icon listing-card-icon">
+                                 <img src="/images/door-icon.svg" alt="door-icon.svg">
+                              </div>
+                              <div class="estate-data-text">8 rooms</div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="listing-card column">
+                        <div class="listing-card-img">
+                           <img src="/images/listing-card-img-6.png" alt="listing-card-img-6.png">
+                        </div>
+                        <div class="estate-type">
+                           APARTMENT
+                        </div>
+                        <div class="estate-address">
+                           Dwight Way
+                        </div>
+                        <div class="estate-data row">
+                           <div class="beds-data row ">
+                              <div class="bed-icon listing-card-icon">
+                                 <img src="/images/bed-icon.svg" alt="bed-icon.svg">
+                              </div>
+                              <div class="estate-data-text">8 beds</div>
+                           </div>
+                           <div class="bathrooms-data row">
+                              <div class="bath-icon listing-card-icon">
+                                 <img src="/images/bath-icon.svg" alt="bath-icon.svg">
+                              </div>
+                              <div class="estate-data-text">1 bathroom</div>
+                           </div>
+                           <div class="rooms-data row">
+                              <div class="door-icon listing-card-icon">
+                                 <img src="/images/door-icon.svg" alt="door-icon.svg">
+                              </div>
+                              <div class="estate-data-text">6 rooms</div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="listing-card column">
+                        <div class="listing-card-img">
+                           <img src="/images/listing-card-img-5.png" alt="listing-card-img-5.png">
+                        </div>
+                        <div class="estate-type">
+                           HOUSE
+                        </div>
+                        <div class="estate-address">
+                           North Avenue
+                        </div>
+                        <div class="estate-data row">
+                           <div class="beds-data row ">
+                              <div class="bed-icon listing-card-icon">
+                                 <img src="/images/bed-icon.svg" alt="bed-icon.svg">
+                              </div>
+                              <div class="estate-data-text">14 beds</div>
+                           </div>
+                           <div class="bathrooms-data row">
+                              <div class="bath-icon listing-card-icon">
+                                 <img src="/images/bath-icon.svg" alt="bath-icon.svg">
+                              </div>
+                              <div class="estate-data-text">3 bathrooms</div>
+                           </div>
+                           <div class="rooms-data row">
+                              <div class="door-icon listing-card-icon">
+                                 <img src="/images/door-icon.svg" alt="door-icon.svg">
+                              </div>
+                              <div class="estate-data-text">11 rooms</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="show-all">
+                     <a href="">
+                        Show all listings
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </a>
+                  </div>
+               </div>
+            </section>
+            <section class="team">
+               <div class="team-container base-container row">
+
+                  <div class="team-text-container column">
+                     <div class="section-name">
+                        OUR PEOPLE
+                     </div>
+                     <div class="section-title">
+                        Meet our team of dedicated and talented agents.
+                     </div>
+                     <div class="section-subtitle">
+                        Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna
+                        turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+                     </div>
+                     <div class="show-all">
+                        <a href="">
+                           View our team
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                     </div>
+                  </div>
+
+                  <div class="team-human-cards-container row">
+                     <div class="human-card row">
+                        <div class="human-card-img">
+                           <img src="/images/human-1.png" alt="human-1.png">
+                        </div>
+                        <div class="human-card-info">
+                           <div class="human-card-name">
+                              Ava Orn
+                           </div>
+                           <div class="human-card-role">
+                              Managing Broker
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="human-card row">
+                        <div class="human-card-img">
+                           <img src="/images/human-2.png" alt="human-2.png">
+                        </div>
+                        <div class="human-card-info">
+                           <div class="human-card-name">
+                              Ella Hessel
+                           </div>
+                           <div class="human-card-role">
+                              Agent
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="human-card row">
+                        <div class="human-card-img">
+                           <img src="/images/human-3.png" alt="human-3.png">
+                        </div>
+                        <div class="human-card-info">
+                           <div class="human-card-name">
+                              Daryl Gislason
+                           </div>
+                           <div class="human-card-role">
+                              REALTOR
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="human-card row">
+                        <div class="human-card-img">
+                           <img src="/images/human-4.png" alt="human-4.png">
+                        </div>
+                        <div class="human-card-info">
+                           <div class="human-card-name">
+                              David Sporer
+                           </div>
+                           <div class="human-card-role">
+                              Agent
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="human-card row">
+                        <div class="human-card-img">
+                           <img src="/images/human-5.png" alt="human-5.png">
+                        </div>
+                        <div class="human-card-info">
+                           <div class="human-card-name">
+                              Trevor Torphy
+                           </div>
+                           <div class="human-card-role">
+                              Agent
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="human-card row">
+                        <div class="human-card-img">
+                           <img src="/images/human-6.png" alt="human-6.png">
+                        </div>
+                        <div class="human-card-info">
+                           <div class="human-card-name">
+                              Amanda Giovanni
+                           </div>
+                           <div class="human-card-role">
+                              REALTOR
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="newsroom">
+               <div class="newsroom-container base-container">
+                  <div class="newsroom-text-container column">
+                     <div class="section-name">
+                        NEWSROOM
+                     </div>
+                     <div class="section-title">
+                        Writing from Estate.
+                     </div>
+                  </div>
+                  <div class="newsroom-cards-container row">
+                     <div class="newsroom-card column">
+                        <div class="newsroom-card-image">
+                           <img src="/images/newsroom-1.png" alt="newsroom-1.png">
+                        </div>
+                        <div class="newsroom-card-name">
+                           PRESS RELEASE
+                        </div>
+                        <div class="newsroom-card-title">
+                           Market watch: are condos still a good investment?
+                        </div>
+                        <div class="newsroom-card-date">
+                           August 12, 2021
+                        </div>
+                     </div>
+
+                     <div class="newsroom-card column">
+                        <div class="newsroom-card-image">
+                           <img src="/images/newsroom-2.png" alt="newsroom-2.png">
+                        </div>
+                        <div class="newsroom-card-name">
+                           ANNOUNCEMENT
+                        </div>
+                        <div class="newsroom-card-title">
+                           The history of great design
+                        </div>
+                        <div class="newsroom-card-date">
+                           August 12, 2021
+                        </div>
+                     </div>
+
+                     <div class="newsroom-card column">
+                        <div class="newsroom-card-image">
+                           <img src="/images/newsroom-3.png" alt="newsroom-3.png">
+                        </div>
+                        <div class="newsroom-card-name">
+                           COMPANY NEWS
+                        </div>
+                        <div class="newsroom-card-title">
+                           Designers who changed everything
+                        </div>
+                        <div class="newsroom-card-date">
+                           August 12, 2021
+                        </div>
+                     </div>
+                  </div>
+                  <div class="show-all">
+                     <a href="">
+                        Newsroom
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </a>
+                  </div>
+               </div>
+            </section>
+            <section class="testimonials">
+               <div class="testimonials-container base-container">
+                  <div class="section-name">
+                     TESTIMONIAL
+                  </div>
+                  <div class="section-title">
+                     What our customers say.
+                  </div>
+
+                  <div class="testimonials-card-container">
+                     <div id="container">
+                        <div class="slider-container" id="slider-container">
+                           <div class="slider" id="slider">
+                              <div class="slide" id="slide">
+                                 <div class="testimonial-card">
+                                    <div class="testimonial-card-rating">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="testimonial-card-title">We found the perfect home!</div>
+                                    <div class="testimonial-card-subtitle">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                       in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                       interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                                       cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                                    </div>
+                                    <div class="testimonial-card-username">Nate Davidsson</div>
+                                 </div>
+                              </div>
+                              <div class="slide">
+                                 <div class="testimonial-card">
+                                    <div class="testimonial-card-rating">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="testimonial-card-title">We're so happy with Estate.</div>
+                                    <div class="testimonial-card-subtitle">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                       in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                       interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                                       cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                                    </div>
+                                    <div class="testimonial-card-username">Laura Paulie</div>
+                                 </div>
+                              </div>
+                              <div class="slide">
+                                 <div class="testimonial-card">
+                                    <div class="testimonial-card-rating">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="testimonial-card-title">Thank you for our beautiful home.</div>
+                                    <div class="testimonial-card-subtitle">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                       in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                       interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                                       cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                                    </div>
+                                    <div class="testimonial-card-username">Greg Todd</div>
+                                 </div>
+                              </div>
+                              <div class="slide">
+                                 <div class="testimonial-card">
+                                    <div class="testimonial-card-rating">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="testimonial-card-title">Thank you for our beautiful home.</div>
+                                    <div class="testimonial-card-subtitle">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                       in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                       interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                                       cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                                    </div>
+                                    <div class="testimonial-card-username">Greg Todd</div>
+                                 </div>
+                              </div>
+                              <div class="slide">
+                                 <div class="testimonial-card">
+                                    <div class="testimonial-card-rating">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="testimonial-card-title">Thank you for our beautiful home.</div>
+                                    <div class="testimonial-card-subtitle">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                       in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                       interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                                       cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                                    </div>
+                                    <div class="testimonial-card-username">Greg Todd</div>
+                                 </div>
+                              </div>
+                              <div class="slide">
+                                 <div class="testimonial-card">
+                                    <div class="testimonial-card-rating">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="testimonial-card-title">Thank you for our beautiful home.</div>
+                                    <div class="testimonial-card-subtitle">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                       in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                       interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                                       cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                                    </div>
+                                    <div class="testimonial-card-username">Greg Todd</div>
+                                 </div>
+                              </div>
+                              <div class="slide">
+                                 <div class="testimonial-card">
+                                    <div class="testimonial-card-rating">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="testimonial-card-title">Thank you for our beautiful home.</div>
+                                    <div class="testimonial-card-subtitle">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                       in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                                       interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                                       cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                                    </div>
+                                    <div class="testimonial-card-username">Greg Todd</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="slider-controls">
+                           <span onclick="slideLeft()" class="slider-btn">
+                           <i class="fa-solid fa-arrow-left"></i>
+                        </span>
+                           <span onclick="slideRight()" class="slider-btn">
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="contacts">
+               <div class="contacts-container base-container column">
+                  <div class="seen">Seen enough?</div>
+                  <div class="section-title">
+                     Get in touch with us today.
+                  </div>
+                  <div class="section-subtitle">
+                     Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna
+                     turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+                  </div>
+                  <div class="contacts-btn-row row">
+                     <div class="contacts-btn">Contact</div>
+                     <div class="contacts-btn">See listings</div>
+                  </div>
+               </div>
+            </section>
+         </main>
+
+         <footer class="footer">
+            <div class="footer-container base-container">
+               <div class="footer-logo row">
+                  <img src="/images/logo-light.png" alt="logo-light.png">
+               </div>
+
+               <div class="footer-mnu row">
+                  <div class="mnu-category column">
+                     <div class="category-name">Pages</div>
+                     <div class="category-item">Start</div>
+                     <div class="category-item">Listings</div>
+                     <div class="category-item">Listings alt. 2</div>
+                     <div class="category-item">Contact</div>
+                     <div class="category-item">Legal</div>
+                  </div>
+
+                  <div class="mnu-category column">
+                     <div class="category-name">Company</div>
+                     <div class="category-item">About</div>
+                     <div class="category-item">Our team</div>
+                     <div class="category-item">Newsroom</div>
+                  </div>
+
+                  <div class="mnu-category column">
+                     <div class="category-name">Utility</div>
+                     <div class="category-item">Instructions</div>
+                     <div class="category-item">Style guide</div>
+                     <div class="category-item">Licenses</div>
+                     <div class="category-item">Changelog</div>
+                     <div class="category-item">404</div>
+                  </div>
+
+                  <div class="mnu-category newsletter-category column">
+                     <div class="category-name">Newsletter</div>
+                     <div class="category-item">
+                        Subscribe to our (infrequent) newsletter where we share news about
+                        upcoming listings and projects.
+                     </div>
+                     <input class="email-input" type="text" placeholder="Email">
+                     <div class="sbm-row row">
+                        <div class="submit-btn">Submit</div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="copyright-row row">
+                  <div class="copyright">
+                     © Estate, LLC. All rights reserved. Powered by Webflow
+                  </div>
+                  <div class="brands">
+                     <i class="fa-brands fa-linkedin"></i>
+                     <i class="fa-brands fa-facebook-square"></i>
+                     <i class="fa-brands fa-instagram"></i>
+                     <i class="fa-brands fa-twitter"></i>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+
+      <script src="https://kit.fontawesome.com/af38c7a6fc.js" crossorigin="anonymous"></script>
+      <script src="/scripts/handleHamburgerMenuScript.js"></script>
+      <script src="/scripts/handleSliderBehavior.js"></script>
+   </body>
+
+</html>
